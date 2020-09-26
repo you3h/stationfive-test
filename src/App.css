@@ -1,0 +1,31 @@
+@import '~antd/dist/antd.css';
+
+.app {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px 40px;
+}
+
+.radio-group {
+  margin: 10px 0;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button {
+  width: 150px;
+}
+
+.ant-list-itemn {
+  max-height: 450px;
+}
