@@ -33,7 +33,6 @@ const App = () => {
   }, [selectedMenu, rules])
 
   const menuOnChange = (data, cluster) => {
-    console.log(data)
     const { id, value } = data
 
     let selected = []
